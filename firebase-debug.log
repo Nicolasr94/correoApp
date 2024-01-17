@@ -1,0 +1,21 @@
+[debug] [2023-11-21T03:22:10.623Z] ----------------------------------------------------------------------
+[debug] [2023-11-21T03:22:10.626Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nicol\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-21T03:22:10.626Z] CLI Version:   12.9.1
+[debug] [2023-11-21T03:22:10.626Z] Platform:      win32
+[debug] [2023-11-21T03:22:10.626Z] Node Version:  v20.9.0
+[debug] [2023-11-21T03:22:10.626Z] Time:          Tue Nov 21 2023 00:22:10 GMT-0300 (hora estándar de Argentina)
+[debug] [2023-11-21T03:22:10.626Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-21T03:22:10.632Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-21T03:22:10.633Z] > authorizing via signed-in user (nicolas.rivero94@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  B:\ProyectosVSC\AppCorreo\appcorreo
+

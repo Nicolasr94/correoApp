@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TableBody from '../components/TableBody.svelte'
+import CardTable from '../components/CardTable.svelte';
+import { getAllElement } from '@utils/getAllElements';
+// Import the functions you need from the SDKs you need
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+//  Your web app's Firebase configuration
+let data = await getAllElement();
+{
+console.log("Aca entro al componente")
+ console.log(typeof data)
+    if( typeof data == 'object'){
+         console.log(data);
+    }
+}
+---
+
+   
+<Layout>
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Fecha de ingreso</th>
+            <th>Fecha vencimiento</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+    <TableBody client:load>
+        
+             }
+        
+    </TableBody>
+</table>
+
+
+</Layout>
+
+<style>
+    section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+</style>

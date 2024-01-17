@@ -1,0 +1,19 @@
+{
+  "name": "appcorreo",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^4.0.4",
+    "astro": "^3.5.5",
+    "firebase": "^10.6.0",
+    "firebase-admin": "^11.11.1",
+    "svelte": "^5.0.0-next.1"
+  }
+}
